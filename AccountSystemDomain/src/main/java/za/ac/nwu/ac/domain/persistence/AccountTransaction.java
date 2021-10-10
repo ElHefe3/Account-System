@@ -9,6 +9,8 @@ import java.util.Objects;
 @Table(name = "ACCOUNT_TYPE", schema = "VIT_RSA_SANDBOX")
 public class AccountTransaction implements Serializable {
 
+    private static final long serialVersionUID = -1420294317019175746L;
+
     private long transactionID;
     private AccountType accountType;
     private long amount;
