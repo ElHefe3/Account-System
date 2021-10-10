@@ -44,7 +44,6 @@
                 <artifactId>spring-core</artifactId>
                 <scope>compile</scope>
             </dependency>
-
             <dependency>
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger2</artifactId>
@@ -83,5 +82,14 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.featherfly.configuration</groupId>
+            <artifactId>configuration-persistence</artifactId>
+            <version>1.1.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 </project>
