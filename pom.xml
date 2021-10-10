@@ -11,7 +11,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>ac</groupId>
+    <groupId>za.ac.nwu.ac</groupId>
     <artifactId>AccountSystem</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>

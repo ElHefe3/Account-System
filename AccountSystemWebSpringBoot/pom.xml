@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>ac</groupId>
+        <groupId>za.ac.nwu.ac</groupId>
         <artifactId>AccountSystem</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -15,12 +15,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>ac</groupId>
+            <groupId>za.ac.nwu.ac</groupId>
             <artifactId>AccountSystemDomain</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>ac</groupId>
+            <groupId>za.ac.nwu.ac</groupId>
             <artifactId>AccountSystemLogic</artifactId>
             <version>${project.version}</version>
         </dependency>
